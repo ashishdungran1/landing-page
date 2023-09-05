@@ -139,3 +139,41 @@ body {
     font-size: 24px;
     font-style: normal;
 }
+
+.signup {
+    width: 1032px;
+    margin: 100px auto;
+    background-color: #3882f6;
+    border-radius: 8px;
+}
+
+.signup>.container {
+    width: 800px;
+    margin: 0 auto;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signup .text>h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.signup .text>p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: 4px;
+}
+
+.signup button {
+    background-color: #3882f6;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 18px;
+    color: #f9faf8;
+    font-weight: bold;
+    padding: 8px 32px;
+}
